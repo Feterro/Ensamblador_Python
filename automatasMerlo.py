@@ -20,7 +20,7 @@ def numeros(cadena):
 
         return False
 
-#letras y "_"
+#letras y "_" hola
 def letras(cadena):
     estado=1
     for i in range(0, len(cadena)):
@@ -88,7 +88,7 @@ def caracter(cadena):
                 return False
 
             
-    if estado == 2 or estado == 3 or estado == 4:
+    if estado is not 1:
         return True
     else:
         return False
@@ -163,7 +163,8 @@ def program(cadena):
             
     if estado == 10:
         return True
-    else: return False
+    else:
+        return False
 
 def main():
     cadena=".program Este es_mi_primer111programa"

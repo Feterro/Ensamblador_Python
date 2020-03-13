@@ -20,7 +20,7 @@ def numeros(cadena):
 
         return False
 
-#letras y "_"
+#letras y "_" hola
 def letras(cadena):
     estado=1
     for i in range(0, len(cadena)):
